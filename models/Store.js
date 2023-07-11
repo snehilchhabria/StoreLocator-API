@@ -29,4 +29,4 @@ const storeScehma = mongoose.Schema({
       }
 });
 
-module.exports = storeScehma;
+module.exports = mongoose.model('Store', storeScehma);
