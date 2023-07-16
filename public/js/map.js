@@ -4,7 +4,7 @@
     container: 'map',
     style: 'mapbox://styles/mapbox/streets-v11',
     zoom: 9,
-    center: [77.216721, 28.644800]
+    center: [-71.157895, 42.707741]
   });
 
   //Fetch stores from API
@@ -17,14 +17,18 @@
             type: 'Feature',
             geometry: {
                 type: 'Point',
-                coordinates: [77.216721, 28.644800]
+                coordinates: [
+                    store.location.coordinates[0],
+                     store.location.coordinates[0]
+                    ]
                 },
                 properties: {
-                storeID: '0001',
+                storeID: store.storeID,
                 icon: 'shop'
                 }
             }
     });
+    loadMap();
   }
 
   // Load map
@@ -38,19 +42,6 @@
               data: {
                 type: 'FeatureCollection',
                 features: stores,
-                // features:[ 
-                //     {
-                //         type: 'Feature',
-                //         geometry: {
-                //             type: 'Point',
-                //             coordinates: [77.216721, 28.644800]
-                //         },
-                //         properties: {
-                //             storeID: '0001',
-                //             icon: 'shop'
-                //         }
-                //     }
-                // ]
               }
             },
             layout: {
