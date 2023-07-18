@@ -85,7 +85,4 @@ Please ensure that your code adheres to the existing code style, includes approp
 ## License
 The Store Locator - API is open source and available under the MIT License. Feel free to modify and use the API in your projects.
 
-## Contact
-If you have any questions or inquiries about the Store Locator - API, please contact us at support@storelocatorapi.com.
-
 Happy coding!
