@@ -4,10 +4,15 @@ Store Locator - API is a powerful and easy-to-use application programming interf
 
 ## Features
 Store Management: Add new stores to the map and provide detailed information such as name, address, coordinates, and any additional custom fields.
+
 Store Retrieval: Retrieve a list of all stores within a specified region or filter stores based on specific criteria, such as distance, category, or availability.
+
 Store Update: Update the details of existing stores, including name, address, coordinates, and custom fields.
+
 Store Deletion: Delete stores that are no longer needed or relevant.
+
 Geolocation: Utilize geolocation services to automatically detect the user's location or determine distances between stores.
+
 ## Installation
 To use the Store Locator - API in your project, follow these steps:
 
